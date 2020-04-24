@@ -1,0 +1,6 @@
+a command-line package to train the CRF model on Linux server.
+
+https://drive.google.com/open?id=13JYM2JdxhlVyLmL7C-YIE5w1_knyWXcV
+
+you can run activation.sh first and then update the path in 'run_model_training.sh' and run;
+
