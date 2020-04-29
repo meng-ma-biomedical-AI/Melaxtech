@@ -1,0 +1,44 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.melax.poc</groupId>
+	<version>1.0.1-SHAPSHOT</version>
+	<artifactId>Sema4_Melaxtech</artifactId>
+	<packaging>jar</packaging>
+
+    <repositories>
+        <repository>
+            <id>melax-nexus-snapshots-sema4</id>
+            <url>http://nexus.melaxtech.com:8082/repository/maven-snapshots/</url>
+        </repository>
+        <repository>
+			<id>melax-nexus-releases-sema4</id>
+            <url>http://nexus.melaxtech.com:8082/repository/maven-releases/</url>
+        </repository>
+    </repositories> 
+    <!-- <repositories>
+	    <repository>
+	      <id>melax-nexus-snapshots-targetpharma</id>
+	      <url>http://nexus.melaxtech.com:8083/repository/maven-snapshots/</url>
+	    </repository>
+	    <repository>
+	      <id>melax-nexus-releases-targetpharma</id>
+	      <url>http://nexus.melaxtech.com:8083/repository/maven-releases/</url>
+	    </repository>
+  	</repositories>-->
+
+	<dependencies>
+		<dependency>
+		  	<groupId>edu.uth.clamp</groupId>
+  			<artifactId>clamp-nlp</artifactId>
+  			<version>1.6.2-SNAPSHOT</version>
+		</dependency>
+		<!-- <dependency>
+		  	<groupId>edu.uth.clamp</groupId>
+  			<artifactId>clamp-nlp</artifactId>
+  			<version>1.6.2-SNAPSHOT</version>
+		</dependency> -->
+		
+		
+	</dependencies>
+</project>	
