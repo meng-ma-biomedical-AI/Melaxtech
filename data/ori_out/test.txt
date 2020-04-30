@@ -1,0 +1,2 @@
+Start	End	Semantic	CUI	Assertion	Entity
+0	14	age	null	null	age ≥ 18 years
